@@ -7,9 +7,42 @@
     <title>Vite App</title>
   </head>
   <body>
-    <h1>
-      WE ARE HERE :)
-    </h1>
+    <video autoplay muted id="loader">
+      <source src="intro.mp4" type="video/mp4">
+    </video>
+  <div id="loader_mes">
+      Loading...
+  </div>
+    <header>
+      Stream of Consciousness
+    </header>
+    <div class="sections">
+      <div class="column">
+        <div class="subheader">Ideas</div>
+        <div class="idea"></div>
+
+      </div>
+      <div class="column">
+        <div class="subheader">Experiments</div>
+        <div class="experiment"></div>
+        
+      </div>
+      <div class="column">
+        <div class="subheader">Inspiration</div>
+        <div class="inspo"></div>
+        
+      </div>
+      <div class="column">
+        <div class="subheader">Bookmarks</div>
+        <div class="bookmark"></div>
+
+        
+      </div>
+    </div>
+    <div class="card-container">
+
+    </div>
     <script type="module" src="/main.js"></script>
+    <script src="myscript.js"></script>
   </body>
 </html>
