@@ -44,5 +44,20 @@
     </div>
     <script type="module" src="/main.js"></script>
     <script src="myscript.js"></script>
+    <script>
+      (function loadvideo(){
+        console.log("Hoorah")
+        video=document.getElementById("loader")
+        message=document.getElementById("loader_mes")
+        console.log(video)
+
+        video.addEventListener('ended', function() {
+          video.style.display = "none"
+          message.style.display = "none"
+
+  })
+
+      })()
+    </script>
   </body>
 </html>

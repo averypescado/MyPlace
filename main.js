@@ -40,9 +40,4 @@ async function fetchDataFromAPIEndpoint() {
 
 }
 
-
-
-
-
-
 fetchDataFromAPIEndpoint();
